@@ -210,3 +210,42 @@ img {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+        width: 90vw;
+        text-align: center;
+    }
+
+    img{
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 8px;
+    }
+    
+    .info{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2rem 1.5rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
+    }
+
+    .info__titulo{
+        font-size: 28px;
+    }
+
+    .metricas{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+}
